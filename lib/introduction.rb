@@ -11,11 +11,11 @@ def introduction_with_language (name, language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}." 
 end
 
-def introduction_with_language_optiona (name,languge)
+def introduction_with_language_optiona (name, languge = "Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}." 
 end 
 
-def introduction_with_language_optional1 (name,languge = "Ruby")
+def introduction_with_language_optional1 (name, languge)
   puts "Hi, my name is #{name} and I am learning to program in #{language}." 
 end
 
